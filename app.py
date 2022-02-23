@@ -39,7 +39,7 @@ def predict():
     if predictions==0:
         return render_template('index.html', prediction_text='Negative')
     else:
-        return render_template('index.html', prediction_text='Postive')
+        return render_template('index.html', prediction_text='Positive')
 
 
 if __name__ == "__main__":
