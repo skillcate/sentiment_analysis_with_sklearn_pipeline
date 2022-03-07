@@ -6,7 +6,7 @@ An end-to-end toolkit on building a sentiment prediction model with a Jupyer not
 
 ## Steps to run on Windows
 
-* Pre-requisites: [Python 3.9](https://www.python.org/downloads/) (ensure Python is added to [PATH](https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013)) + [Git](https://www.markdownguide.org/basic-syntax/) Client
+* Prerequisites: [Python 3.9](https://www.python.org/downloads/) (ensure Python is added to [PATH](https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013)) + [Git](https://www.markdownguide.org/basic-syntax/) Client
 * Open GIT CMD >> navigate to working directory >> Clone this Github Repo
 
       git clone https://github.com/skillcate/sentiment_analysis_with_sklearn_pipeline.git  
@@ -31,7 +31,7 @@ An end-to-end toolkit on building a sentiment prediction model with a Jupyer not
 
 ### Steps to run on Mac
 
-* Pre-requisites: [Python 3.9](https://www.python.org/downloads/)
+* Prerequisites: [Python 3.9](https://www.python.org/downloads/)
 * Open Terminal >> navigate to working directory >> Clone this Github Repo
 
       git clone https://github.com/skillcate/sentiment_analysis_with_sklearn_pipeline.git  
