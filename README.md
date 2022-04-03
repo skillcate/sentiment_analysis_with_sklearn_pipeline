@@ -12,16 +12,26 @@ An end-to-end toolkit on building a sentiment prediction model with a Jupyer not
       git clone https://github.com/skillcate/sentiment_analysis_with_sklearn_pipeline.git  
 * Open Windows Powershell >> navigate to new working directory (cloned repo folder)
 * Create a virtual environment
+  * install virtual environment
+ 
+        pip install virtualenv
+        
+  * create virtual environment by the name ENV
+        
+        virtualenv ENV
+        
+  * activate ENV
 
-      pip install virtualenv    # install virtual environment
-      virtualenv ENV            # create virtual environment by the name ENV
-      .\ENV\Scripts\activate    # activate ENV
+        .\ENV\Scripts\activate
+        
 * Install project dependencies
 
-      pip install -r .\requirements.txt  
+      pip install -r .\requirements.txt
+      
 * Run the project
 
       python app.py
+      
 * Look for the local host address on Powershell screen, something like: 127.0.0.1:5000 >> Type it on your Web Browser >> Project shall load
 * Try out your Amazon Alexa test reviews and look for results
 * To close >> Go back to Powershell & type `ctrl+c` >> Deactivate Virtual Environment ENV
@@ -37,10 +47,16 @@ An end-to-end toolkit on building a sentiment prediction model with a Jupyer not
       git clone https://github.com/skillcate/sentiment_analysis_with_sklearn_pipeline.git  
 * Navigate to new working directory (cloned repo folder)
 * Create a virtual environment
+  * install virtual environment
 
-      pip install virtualenv    # install virtual environment
-      virtualenv ENV            # create virtual environment by the name ENV
-      source ENV/bin/activate   # activate ENV
+        pip install virtualenv
+        
+  * create virtual environment by the name ENV
+  
+        virtualenv ENV  
+  * activate ENV
+        
+        source ENV/bin/activate
 * Install project dependencies
 
       pip install -r requirements.txt  
